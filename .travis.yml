@@ -23,7 +23,6 @@ install:
   - mkdir ~/.R
   - cp Makevars ~/.R
 
-script: jekyll build
-
-deploy:
+script:
+  - jekyll build
   - ./deploy.sh
