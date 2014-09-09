@@ -1,0 +1,5 @@
+name: R Wiki Engine
+markdown: redcarpet
+highlighter: pygments
+
+exclude: ["pandoc", "deploy.sh", "Makevars"]
